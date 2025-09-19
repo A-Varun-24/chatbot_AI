@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gemini Chatbot</h1>
+        <div id="chat-container" class="chat-container" aria-live="polite" aria-atomic="false" role="log" tabindex="0">
+            <div class="message ai-message" role="alert">
+                <div class="message-content">Hello! I'm your Gemini AI assistant. How can I help you today?</div>
+            </div>
+        </div>
+        <div class="input-container">
+            <input type="text" id="user-input" placeholder="Type your message here..." aria-label="Type your message here" autocomplete="off" />
+            <button id="send-button" aria-label="Send message">Send</button>
+        </div>
+        <!-- Optional: Configure your Gemini API key. It is stored locally in your browser. -->
+        <div class="token-container" aria-label="Gemini API key settings">
+            <input type="password" id="gemini-key" placeholder="Gemini API key (required)" aria-label="Gemini API key" autocomplete="off" />
+            <button id="save-key" aria-label="Save Gemini API key">Save Key</button>
+        </div>
+    </div>
+    <footer>
+        <p>© 2025 Gemini Chatbot. All rights reserved. Made with ❤️ Varun.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
