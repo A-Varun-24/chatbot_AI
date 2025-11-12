@@ -180,5 +180,6 @@ footer {
 }
 
 .container {
-    margin-bottom: 60px; /* Add bottom margin to prevent overlap with footer */
+    margin-bottom: 60px;
 }
+
